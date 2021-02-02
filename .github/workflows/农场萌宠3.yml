@@ -20,7 +20,6 @@ jobs:
             - name: Run jd_pet
               run: npm install
             - run: node jd_818.js
-            - run: node jd_fruit.js
             - run: node jd_pet.js
             - run: node jd_fruit.js
               env:
